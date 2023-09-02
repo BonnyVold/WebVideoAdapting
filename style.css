@@ -1,0 +1,46 @@
+html {
+  padding: 0px;
+  margin: 0px;
+  top: 0px;
+}
+
+body {
+  background-color: #101e3a;
+}
+
+.content-container {
+  display: flex;
+  position: relative;
+}
+
+#background-video {
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  z-index: -1;
+}
+
+.nav a { 
+  text-decoration: none;
+}
+
+.logo {
+  
+}
+
+@media screen (min-aspect-ratio:  16/9){
+  video {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen (max-aspect-ratio:  16/9){
+  video {
+    width: auto;
+    height: auto;
+  }
+}
