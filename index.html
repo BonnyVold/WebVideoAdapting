@@ -11,27 +11,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="home">
   <div class="video-container">
     <div class="video-card">
-      <video id="background-video" loop muted autoplay>
+      <video id="background-video" loop muted>
         <source src="pexels_videos_1321208 (2160p).mp4" type="video/mp4">
       </video>
     </div>
   </div>
   <div class="content-container">
     <div class="nav-bar-wrapper">
-        <div class="nav-bar">
-          <nav>
-            <div class="nav-btn">
-              <a href="#">HOME</a>
-              <a href="#">GALLERY</a>
-              <a href="#">ABOUT US</a>
-              <a href="#">CONTACT</a>
-            </div>
-          </nav>
-        </div>
+      <div class="nav-bar">
+        <nav>
+          <div class="nav-btn">
+            <a href="#">HOME</a>
+            <a href="#">GALLERY</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">CONTACT</a>
+          </div>
+        </nav>
       </div>
+    </div>
     <div class="header">
       <div class="main-header-container-wrapper">
         <div class="big-logo-name">
@@ -44,20 +44,26 @@
     <div class="galery-collection">
       <div class="galery-row">
         <div class="galery-item-left">
-          <span><h1>Item #1</h1></span>
-          <span>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. </span>
+          <span>
+            <h1>Item #1</h1>
+          </span>
+          <span>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
+          </span>
         </div>
         <div class="galery-item-right">
           <div class="galery-video-wrap">
-            <div class="galery-video"> 
+            <div class="galery-video">
               <video loop muted autoplay>
-                <source src="./pexels_videos_1536315 (1080p).mp4">
+                <!-- <source src="./pexels_videos_1536315 (1080p).mp4"> -->
               </video>
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </div>
+  </div>
+  <div class="go-home-btn">
+    <a href="#home"><span>HOME</span></a>
   </div>
 </body>
 
