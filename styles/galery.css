@@ -1,10 +1,40 @@
 html {
   box-sizing: border-box;
-  margin: 0; 
-  padding: 0;
-  color: red; 
+  margin: 0px; 
+  padding: 0px;
+  left: 0px; 
+  background-color: #2F1847; 
 }
 
-.content-wrapper { 
-  background-color: #2F1847; 
+/* .content-wrapper {  */
+  /* background-color: #2F1847;  */
+/* } */
+
+.galery-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  padding: 10px; 
+  align-items: center; 
+}
+
+.item-descr {
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  font-size: 28px; 
+  text-align: center;
+}
+
+#descr-text {
+  position: relative; 
+  vertical-align: middle;
+}
+
+#item-video {
+  border-radius: 20px; 
+}
+
+.revert {
+  flex-direction: row-revers;
 }
